@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miku Lab</title>
+
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MikuLab" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="home-container">
+        
+        <div class="profile-section">
+            <img src="assets/avatar.jpg" alt="Avatar" class="avatar">
+            <h1 class="name">Miku Lab</h1> <div class="quote-box">
+                <span id="typing-text"></span><span style="animation: blink 1s infinite;">|</span>
+            </div>
+
+            <div class="mini-social">
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-moon"></i></a>
+            </div>
+        </div>
+
+        <div class="grid-menu">
+            <a href="pages/about.html" class="grid-item">
+                <i class="fas fa-id-card"></i> <span>Details</span>
+            </a>
+            
+            <a href="https://blog.mikulab.com" class="grid-item">
+                <i class="fas fa-blog"></i> <span>Blog</span>
+            </a>
+            
+            <a href="https://navi.mikulab.com" class="grid-item">
+                <i class="fa-sharp-duotone fa-solid fa-paper-plane"></i> <span>Navbar</span>
+            </a>
+            
+            <a href="https://tool.mikulab.com" class="grid-item">
+                <i class="fas fa-screwdriver-wrench"></i> <span>Tools</span>
+            </a>
+            
+            <a href="https://image.mikulab.com/" class="grid-item">
+                <i class="fas fa-image"></i> <span>Image</span>
+            </a>
+            
+            <a href="https://ward.mikulab.com" class="grid-item">
+                <i class="fas fa-server"></i> <span>Server</span>
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            <i class="far fa-clock"></i> Stay for：<span id="stay-time">00 : 00 : 00</span>
+        </p>
+        <p style="margin-top: 5px; opacity: 0.7;">
+            © 2026 Made by Miku Lab | <a href="https://mikulab.com">HomePage</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
