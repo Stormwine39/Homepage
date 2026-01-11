@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 定义要循环显示的句子
         const texts = [
             "「Hello! Welcome!」",
-            "「Stay cool」",
+            "「Stay foolish, stay hungry」",
             "「Miku Miku Go!!!」"
         ];
         let textIndex = 0;
