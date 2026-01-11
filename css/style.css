@@ -72,9 +72,9 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
 .avatar:hover { transform: rotate(360deg); }
 
 .name { 
-    font-size: 3.9rem; /* [修改] 字号变大 */
-    margin-bottom: 10px; 
-    font-weight: 400; /* [修改] 字体加粗程度 (100-900) */
+    font-size: 6.9rem; /* [修改] 字号变大 */
+    margin-bottom: 15px; 
+    font-weight: 439; /* [修改] 字体加粗程度 (100-900) */
     
     /* [修改] 字体颜色 */
     color: #39C5BB; /* 深蓝色，比纯黑更柔和 */
@@ -120,11 +120,12 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
     border-radius: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #444;
     border: 1px solid rgba(255, 255, 255, 0.1);
